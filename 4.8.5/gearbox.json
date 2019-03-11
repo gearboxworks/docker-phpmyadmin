@@ -1,0 +1,16 @@
+{
+	"state": "production",
+	"organization": "gearboxworks",
+	"name": "phpmyadmin",
+	"version": "4.8.5",
+	"majorversion": "",
+	"latest": "",
+	"class": "admin",
+	"network": "--network gearboxnet",
+	"ports": "-p 580:80",
+	"volumes": "",
+	"restart": "--restart no",
+	"args": "",
+	"env": "PHPMYADMIN_VERSION"
+}
+
