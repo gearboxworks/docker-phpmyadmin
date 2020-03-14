@@ -1,0 +1,25 @@
+{
+	"state": "production",
+	"organization": "gearboxworks",
+	"name": "phpmyadmin",
+	"class": "admin",
+	"network": "--network gearboxnet",
+	"ports": [
+		"80"
+	],
+	"volumes": "",
+	"restart": "--restart no",
+	"run": "",
+	"args": "",
+	"env": {
+	},
+	"versions": {
+		"4.8.5": {
+			"majorversion": "4.8",
+			"latest": true,
+			"ref": "",
+			"base": "gearboxworks/gearbox-base:alpine-3.10"
+		}
+	}
+}
+

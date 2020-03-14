@@ -1,0 +1,10 @@
+#!/bin/bash -l
+# WARNING: This file has been auto-generated. DO NOT EDIT: WARNING
+# Created on 2020-03-14T10:45:22+1100, using template:run.tmpl and json:gearbox.json
+
+c_ok "Starting."
+
+cd /var/www
+
+/usr/sbin/nginx
+
