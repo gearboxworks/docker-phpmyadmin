@@ -6,6 +6,7 @@
 	"network": "--network gearboxnet",
 	"ports": [
 		"80",
+		"443",
 		"9000"
 	],
 	"volumes": "",

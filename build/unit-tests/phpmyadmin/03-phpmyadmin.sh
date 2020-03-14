@@ -3,16 +3,25 @@
 
 p_info "phpmyadmin" "Release test started."
 
-sudo killall fold
-sleep 2
+for RETRY in 1 2 3 4
+do
+	WGET="$(wget -qO/dev/null http://localhost/ 2>&1)"
+	if [ "${WGET}" == "" ]
+	then
+		c_ok "phpmyadmin HTTP running."
+		OK="1"
+		break
+	else
+		c_warn "phpmyadmin HTTP NOT running. (RETRY:${RETRY})"
+		OK="0"
+	fi
+done
 
-WGET="$(wget -qO/dev/null http://localhost/ 2>&1)"
-if [ "${WGET}" == "" ]
+if [ "${OK}" == "0" ]
 then
-	c_ok "phpmyadmin HTTP running."
-else
 	c_err "phpmyadmin HTTP NOT running."
 fi
+
 
 #WGET="$(wget -qO/dev/null https://localhost/ 2>&1)"
 #if [ "${WGET}" == "" ]
