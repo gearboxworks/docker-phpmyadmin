@@ -4,3 +4,5 @@
 *.php linguist-detectable=false
 *.html linguist-detectable=false
 *.js linguist-detectable=false
+*.twig linguist-detectable=false
+*.png linguist-detectable=false
