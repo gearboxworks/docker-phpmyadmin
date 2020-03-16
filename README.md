@@ -20,7 +20,6 @@ GitHub release(latest): ![last-release-date](https://img.shields.io/github/relea
 | phpmyadmin | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-5.0.1-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/5.0.1) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/5.0.1) | `5.0.1`, `5.0`, `latest` | _([5.0.1/DockerfileRuntime](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/5.0/DockerfileRuntime))_ |
 
 
-
 ## Using this container.
 This container has been designed to work within the [Gearbox](https://github.com/gearboxworks/)
 framework.

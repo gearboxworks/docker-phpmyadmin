@@ -2,7 +2,7 @@
 
 ################################################################################
 # WARNING: This file has been auto-generated. DO NOT EDIT: WARNING
-# Created on 2020-03-14T13:26:40+1100, using template:DockerfileRuntime.tmpl and json:gearbox.json
+# Created on 2020-03-15T17:34:06+1100, using template:DockerfileRuntime.tmpl and json:gearbox.json
 # Referenced Docker container for docker-phpmyadmin based off gearboxworks/gearbox-base:alpine-3.10 with phpmyadmin/phpmyadmin:4.8.5 overlayed.
 
 ARG VERSION=4.8.5
@@ -51,7 +51,6 @@ ENV GEARBOX_STATE "production"
 # SKIP versions
 LABEL container.volumes=""
 ENV GEARBOX_VOLUMES ""
-
 LABEL container.base="gearboxworks/gearbox-base:alpine-3.10"
 ENV GEARBOX_BASE "gearboxworks/gearbox-base:alpine-3.10"
 LABEL container.latest="false"
@@ -60,7 +59,6 @@ LABEL container.majorversion="4.8"
 ENV GEARBOX_MAJORVERSION "4.8"
 LABEL container.ref="phpmyadmin/phpmyadmin:4.8.5"
 ENV GEARBOX_REF "phpmyadmin/phpmyadmin:4.8.5"
-
 ENV MYSQL_PASSWORD "gearbox"
 ENV MYSQL_ROOT_PASSWORD "gearbox"
 ENV PMA_ARBITRARY "1"
@@ -68,7 +66,6 @@ ENV PMA_HOST "172.42.0.1"
 ENV PMA_PASSWORD "gearbox"
 ENV PMA_PORT "3306"
 ENV PMA_USER "gearbox"
-
 
 # 5. Now copy the local files specific to this container.
 COPY build /etc/gearbox
