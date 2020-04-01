@@ -1,8 +1,8 @@
-![Gearbox](https://github.com/gearboxworks/gearbox.github.io/raw/master/Gearbox-100x.png)
+![Gearbox](https://raw.githubusercontent.com/gearboxworks/gearboxworks.github.io/master/assets/images/gearbox-logo.png)
 
 
-# Another [Gearbox](https://github.com/gearboxworks/) Docker container service - phpmyadmin
-This is the repository for the [phpmyadmin](<no value>) Docker container implemented for [Gearbox](https://github.com/gearboxworks/).
+# phpmyadmin Docker container service for [Gearbox](https://github.com/gearboxworks/)
+This is the repository for the [phpmyadmin](unknown) Docker container implemented for [Gearbox](https://github.com/gearboxworks/).
 
 
 ## Repository Info
@@ -12,12 +12,12 @@ GitHub release(latest): ![last-release-date](https://img.shields.io/github/relea
 
 
 ## Supported versions and respective Dockerfiles
-| Service | GitHub Version | Docker Version | Docker Size | Docker Tags | Dockerfile |
-| ------- | -------------- | -------------- | ----------- | ----------- | ---------- |
-| phpmyadmin | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.7.9-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.7.9) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.7.9) | `4.7.9`, `4.7` | _([4.7.9/DockerfileRuntime](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.7/DockerfileRuntime))_ |
-| phpmyadmin | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.8.5-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.8.5) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.8.5) | `4.8.5`, `4.8` | _([4.8.5/DockerfileRuntime](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.8/DockerfileRuntime))_ |
-| phpmyadmin | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.9.4-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.9.4) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.9.4) | `4.9.4`, `4.9` | _([4.9.4/DockerfileRuntime](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.9/DockerfileRuntime))_ |
-| phpmyadmin | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-5.0.1-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/5.0.1) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/5.0.1) | `5.0.1`, `5.0`, `latest` | _([5.0.1/DockerfileRuntime](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/5.0/DockerfileRuntime))_ |
+| Service | GitHub Version | Docker Version | Docker Size | Docker Tags |
+| ------- | -------------- | -------------- | ----------- | ----------- |
+| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.7.9-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.7.9) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.7.9) | _([`4.7.9`, `4.7`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.7/DockerfileRuntime))_ |
+| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.8.5-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.8.5) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.8.5) | _([`4.8.5`, `4.8`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.8/DockerfileRuntime))_ |
+| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.9.4-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.9.4) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.9.4) | _([`4.9.4`, `4.9`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/4.9/DockerfileRuntime))_ |
+| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-5.0.1-green.svg) | ![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/5.0.1) | ![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/5.0.1) | _([`5.0.1`, `5.0`, `latest`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/5.0/DockerfileRuntime))_ |
 
 
 ## Using this container.
@@ -44,7 +44,7 @@ Simply clone this repository to your local machine
 `make push` - Push already built Docker images to Docker Hub, (only for Gearbox admins). Push all versions from the base directory or specific versions from each directory.
 
 ### Runtime from GitHub repo
-When you `cd` into a version directory you can also perform a few more actions.
+You can either build your container as above, or use it from DockerHub with these commands:
 
 `make start` - Spin up a Docker container with the correct runtime configs.
 
