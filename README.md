@@ -173,3 +173,6 @@ SSH_PORT="$(docker port phpmyadmin-latest 22/tcp | sed 's/0.0.0.0://')"
 ssh -p ${SSH_PORT} -o StrictHostKeyChecking=no gearbox@localhost
 ```
 
+. . .
+* * *
+zz
