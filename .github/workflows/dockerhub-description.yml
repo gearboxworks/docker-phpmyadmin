@@ -16,4 +16,4 @@ jobs:
       env:
         DOCKERHUB_USERNAME: gearboxbuild
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
-        DOCKERHUB_REPOSITORY: gearboxbuild/phpmyadmin
+        DOCKERHUB_REPOSITORY: gearboxworks/phpmyadmin
