@@ -1,0 +1,80 @@
+[1m[36mGearbox[[37;1m/bin/bash[36m]: [36m# You have entered the docker-phpmyadmin Docker container.[0m
+[1m[36mGearbox[[37;1m/bin/bash[36m]: [36m# All changes made here outside of /home/gearbox/projects will not be permanent.[0m
+
+[1m[36mGearbox[[37;1m/bin/bash[36m]: [33m# WARNING: Currently the project base directory has NOT been mounted.[0m
+[1m[36mGearbox[[37;1m/bin/bash[36m]: [33m#  - /home/gearbox/projects/default[0m
+
+[1m[36mGearbox[[37;1mgearbox-base[36m]: [37;1mRelease test started.[0m
+4242
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/gearbox-base/01-base.sh[36m]: [32mGearbox user found.[0m
+4242
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/gearbox-base/01-base.sh[36m]: [32mGearbox group found.[0m
+[1m[36mGearbox[[37;1mgearbox-bease[36m]: [37;1mRelease test finished.[0m
+[1m[36mGearbox[[37;1mgearbox-base-alpine-3.10[36m]: [37;1mRelease test started.[0m
+PID   USER     TIME  COMMAND
+    1 root      0:00 /bin/s6-svscan /etc/gearbox/services
+   17 root      0:00 s6-supervise GearShift
+   18 root      0:00 s6-supervise sshd
+   19 root      0:00 s6-supervise phpmyadmin
+   20 root      0:00 s6-supervise nginx
+   21 root      0:00 {run} /bin/bash -l ./run
+   22 root      0:00 {run} /bin/bash -l ./run
+   23 root      0:00 /usr/sbin/sshd -D -e
+   24 root      0:00 {GearboxGearshif} /bin/bash /usr/local/sbin/GearboxGearshift
+   74 root      0:00 nginx: master process /usr/sbin/nginx
+  108 root      0:00 {run} /bin/bash -l ./run
+  110 gearbox   0:00 nginx: worker process
+  111 root      0:00 sleep 5
+  112 root      0:00 sleep 99999999
+  113 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  116 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  117 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  118 root      0:01 tr -dc a-zA-Z0-9~!@#$%^&*_()+}{?></";.,[]=-
+  119 root      0:00 fold -w 32
+  121 root      0:00 sshd: gearbox [priv]
+  123 gearbox   0:00 sshd: gearbox@notty
+  124 gearbox   0:00 {run.sh} /bin/bash -l /etc/gearbox/unit-tests/run.sh
+  163 gearbox   0:00 bash -l /etc/gearbox/unit-tests/gearbox-base/02-release.sh
+  168 gearbox   0:00 ps -eaf
+[1m[36mGearbox[[37;1mgearbox-base-alpine-3.10[36m]: [37;1mRelease test finished.[0m
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/gearbox-base/02-sshd.sh[36m]: [37;1mCheck SSHD[0m
+/proc/23/cmdline:/usr/sbin/sshd
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/gearbox-base/02-sshd.sh[36m]: [32mSSHD running[0m
+[1m[36mGearbox[[37;1mphpmyadmin[36m]: [37;1mRelease test started.[0m
+4242
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/phpmyadmin/01-base.sh[36m]: [32mGearbox user found.[0m
+4242
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/phpmyadmin/01-base.sh[36m]: [32mGearbox group found.[0m
+[1m[36mGearbox[[37;1mphpmyadmin[36m]: [37;1mRelease test finished.[0m
+[1m[36mGearbox[[37;1mphpmyadmin-5.0.1[36m]: [37;1mRelease test started.[0m
+PID   USER     TIME  COMMAND
+    1 root      0:00 /bin/s6-svscan /etc/gearbox/services
+   17 root      0:00 s6-supervise GearShift
+   18 root      0:00 s6-supervise sshd
+   19 root      0:00 s6-supervise phpmyadmin
+   20 root      0:00 s6-supervise nginx
+   21 root      0:00 {run} /bin/bash -l ./run
+   22 root      0:00 {run} /bin/bash -l ./run
+   23 root      0:00 /usr/sbin/sshd -D -e
+   24 root      0:00 {GearboxGearshif} /bin/bash /usr/local/sbin/GearboxGearshift
+   74 root      0:00 nginx: master process /usr/sbin/nginx
+  108 root      0:00 {run} /bin/bash -l ./run
+  110 gearbox   0:00 nginx: worker process
+  111 root      0:00 sleep 5
+  112 root      0:00 sleep 99999999
+  113 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  116 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  117 root      0:00 {docker-entrypoi} /bin/bash /docker-entrypoint.sh php-fpm
+  118 root      0:01 tr -dc a-zA-Z0-9~!@#$%^&*_()+}{?></";.,[]=-
+  119 root      0:00 fold -w 32
+  121 root      0:00 sshd: gearbox [priv]
+  123 gearbox   0:00 sshd: gearbox@notty
+  124 gearbox   0:00 {run.sh} /bin/bash -l /etc/gearbox/unit-tests/run.sh
+  202 gearbox   0:00 bash -l /etc/gearbox/unit-tests/phpmyadmin/02-release.sh
+  207 gearbox   0:00 ps -eaf
+[1m[36mGearbox[[37;1mphpmyadmin-5.0.1[36m]: [37;1mRelease test finished.[0m
+[1m[36mGearbox[[37;1mphpmyadmin[36m]: [37;1mRelease test started.[0m
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/phpmyadmin/03-phpmyadmin.sh[36m]: [33mphpmyadmin HTTP NOT running. (RETRY:1)[0m
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/phpmyadmin/03-phpmyadmin.sh[36m]: [33mphpmyadmin HTTP NOT running. (RETRY:2)[0m
+[1m[36mGearbox[[37;1m/etc/gearbox/unit-tests/phpmyadmin/03-phpmyadmin.sh[36m]: [32mphpmyadmin HTTP running.[0m
+[1m[36mGearbox[[37;1mphpmyadmin[36m]: [37;1mRelease test finished.[0m

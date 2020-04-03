@@ -1,8 +1,8 @@
-![Gearbox](https://raw.githubusercontent.com/gearboxworks/gearboxworks.github.io/master/assets/images/gearbox-logo.png)
+![Gearbox](https://gearboxworks.github.io/assets/images/gearbox-logo.png)
 
 
 # phpmyadmin Docker container service for [Gearbox](https://github.com/gearboxworks/)
-This is the repository for the [phpmyadmin](unknown) Docker container implemented for [Gearbox](https://github.com/gearboxworks/).
+This is the repository for the [phpmyadmin](https://www.phpmyadmin.net/) Docker container implemented for [Gearbox](https://github.com/gearboxworks/).
 
 
 ## Repository Info
@@ -14,10 +14,10 @@ GitHub release(latest): ![last-release-date](https://img.shields.io/github/relea
 ## Supported versions and respective Dockerfiles
 | Service | GitHub Version | Docker Version | Docker Size | Docker Tags |
 | ------- | -------------- | -------------- | ----------- | ----------- |
-| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.7.9-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.7.9)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.7.9)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.7.9`, `4.7`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.7.9/DockerfileRuntime))_ |
-| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.8.5-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.8.5)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.8.5)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.8.5`, `4.8`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.8.5/DockerfileRuntime))_ |
-| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.9.4-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.9.4)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.9.4)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.9.4`, `4.9`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.9.4/DockerfileRuntime))_ |
-| [phpmyadmin](unknown) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-5.0.1-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/5.0.1)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/5.0.1)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`5.0.1`, `5.0`, `latest`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/5.0.1/DockerfileRuntime))_ |
+| [phpmyadmin](https://www.phpmyadmin.net/) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.7.9-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.7.9)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.7.9)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.7.9`, `4.7`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.7.9/DockerfileRuntime))_ |
+| [phpmyadmin](https://www.phpmyadmin.net/) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.8.5-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.8.5)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.8.5)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.8.5`, `4.8`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.8.5/DockerfileRuntime))_ |
+| [phpmyadmin](https://www.phpmyadmin.net/) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-4.9.4-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/4.9.4)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/4.9.4)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`4.9.4`, `4.9`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/4.9.4/DockerfileRuntime))_ |
+| [phpmyadmin](https://www.phpmyadmin.net/) | ![phpmyadmin](https://img.shields.io/badge/phpmyadmin-5.0.1-green.svg) | [![Docker Version)](https://img.shields.io/docker/v/gearboxworks/phpmyadmin/5.0.1)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | [![Docker Size](https://img.shields.io/docker/image-size/gearboxworks/phpmyadmin/5.0.1)](https://hub.docker.com/repository/docker/gearboxworks/phpmyadmin) | _([`5.0.1`, `5.0`, `latest`](https://github.com/gearboxworks/docker-phpmyadmin/blob/master/versions/5.0.1/DockerfileRuntime))_ |
 
 
 ## About this container.
@@ -68,9 +68,9 @@ Create, and start the phpmyadmin Gearbox container. Run a shell.
 
 `./bin/gb-launch -gb-name phpmyadmin -gb-shell`
 
-Create, and start the phpmyadmin Gearbox container with version 4.7.9 and run a shell.
+Create, and start the phpmyadmin Gearbox container with version  and run a shell.
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell`
 
 If phpmyadmin is symlinked to `gb-launch`, then you can drop the `-gb-name` flag.
 
@@ -80,18 +80,18 @@ Running phpmyadmin Gearbox container default command. If a container has a defau
 
 `./bin/phpmyadmin -flag1 -flag2 variable`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -flag1 -flag2 variable`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version  -flag1 -flag2 variable`
 
 
 Running alternate commands within the phpmyadmin Gearbox container.
 
 `./bin/phpmyadmin -gb-shell -- ls -l`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell -- ls -l`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell -- ls -l`
 
 `./bin/phpmyadmin -gb-shell -- ps -eaf`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell -- ps -eaf`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell -- ps -eaf`
 
 
 ssh - All [Gearbox](https://github.com/gearboxworks/) containers have a running SSH daemon. So you can connect remotely.
