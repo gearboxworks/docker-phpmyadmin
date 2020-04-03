@@ -15,6 +15,8 @@ do
 		c_warn "phpmyadmin HTTP NOT running. (RETRY:${RETRY})"
 		OK="0"
 	fi
+
+	sleep 2
 done
 
 if [ "${OK}" == "0" ]

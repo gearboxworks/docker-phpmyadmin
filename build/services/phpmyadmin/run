@@ -5,8 +5,8 @@
 c_ok "Starting."
 
 cd /var/www
-# (sleep 5; killall fold) &
-sudo ln -sf /bin/true /usr/bin/fold
+(sleep 5; killall fold) &
+# sudo ln -sf /bin/true /usr/bin/fold
 
 GBEP="$(which ${GEARBOX_ENTRYPOINT})"
 if [ "${GBEP}" != "" ]
