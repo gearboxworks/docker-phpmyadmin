@@ -7,7 +7,7 @@
 		"label": "Phpmyadmin",
 		"maintainer": "Gearbox Team <team@gearbox.works>",
 		"class": "admin",
-		"refurl": "unknown"
+		"refurl": "https://www.phpmyadmin.net/"
 	},
 	"build": {
 		"ports": {
