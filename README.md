@@ -68,9 +68,9 @@ Create, and start the phpmyadmin Gearbox container. Run a shell.
 
 `./bin/gb-launch -gb-name phpmyadmin -gb-shell`
 
-Create, and start the phpmyadmin Gearbox container with version  and run a shell.
+Create, and start the phpmyadmin Gearbox container with version 4.7.9 and run a shell.
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell`
 
 If phpmyadmin is symlinked to `gb-launch`, then you can drop the `-gb-name` flag.
 
@@ -80,18 +80,18 @@ Running phpmyadmin Gearbox container default command. If a container has a defau
 
 `./bin/phpmyadmin -flag1 -flag2 variable`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version  -flag1 -flag2 variable`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -flag1 -flag2 variable`
 
 
 Running alternate commands within the phpmyadmin Gearbox container.
 
 `./bin/phpmyadmin -gb-shell -- ls -l`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell -- ls -l`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell -- ls -l`
 
 `./bin/phpmyadmin -gb-shell -- ps -eaf`
 
-`./bin/gb-launch -gb-name phpmyadmin -gb-version  -gb-shell -- ps -eaf`
+`./bin/gb-launch -gb-name phpmyadmin -gb-version 4.7.9 -gb-shell -- ps -eaf`
 
 
 ssh - All [Gearbox](https://github.com/gearboxworks/) containers have a running SSH daemon. So you can connect remotely.
